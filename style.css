@@ -9,7 +9,7 @@ header {
     padding: 10px;
     border-radius: 20px;
 }
-.safelysendlogo{
+.safelysendlogo {
     width: 70px;
     height: 35px;
     transform: scale(2.2);
@@ -104,7 +104,6 @@ body {
     width: 100%;
 }
 
-
 .signin {
     background: none;
     font-size: 40px;
@@ -117,20 +116,40 @@ body {
     border-radius: 15px;
     border: none;
     cursor: pointer;
+
 }
-.supportsign {
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
-    margin-top: 350px;
-    margin-left: -8px;   
-    margin-right: -8px;  
-    margin-bottom: -8px; 
-    color: rgb(196, 107, 18);
+.signinlogo img {
     background-color: darkgreen;
-    padding: 20px;
+    display: block;
+    height: 100px;
+    margin-right: 70px;
+    width: 150px;
+    margin-top: 100px;
+    margin-left: 750px;
+}
+.userpass {
+    color: rgb(196, 107, 18);
     text-align: center;
-    box-sizing: border-box;
+    margin-top: 90px;
+}
+.usernametext, .passwordtext {
+    font-size: 2.5rem;
+}
+.usernamebutton, .passwordbutton {
+    font-size: 2rem;
+}
+.signupbuttons {
+    background-color: darkgreen;
+    padding: 25px;
+    border-radius: 100px;
+    text-align: center;
+    margin-top: 50px;
+}
+.login, .forgotpass, .signup {
+    background-color: rgb(80, 143, 73);
+    color: white;
+    font-size: 1.25rem;
+    cursor: pointer;
 }
 
 .introduction {
@@ -305,9 +324,7 @@ body {
     box-sizing: border-box;
 }
 
-/* =========================================
-   MOBILE RESPONSIVE FIXES (Phones/Tablets)
-   ========================================= */
+
 @media (max-width: 768px) {
    header {
     font-size: 1.8rem;
@@ -321,8 +338,6 @@ body {
     margin: 0 auto 10px auto;
     display: block;
   }
-
-  /* 2. Top Navigation Buttons (styled as the bottom half of the green bar) */
   .introduction,
   .products,
   .new,
