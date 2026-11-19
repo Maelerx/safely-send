@@ -448,4 +448,11 @@ body {
     text-decoration: none;
     -webkit-text-decoration: none;
   }
+  .signinlogo img,
+    .safelysendlogo {
+        margin-left: auto;
+        margin-right: auto;
+        height: 10rem;
+        width: 14rem;
+    }
 }
