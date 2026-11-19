@@ -304,3 +304,122 @@ body {
     text-align: center;
     box-sizing: border-box;
 }
+
+/* =========================================
+   MOBILE RESPONSIVE FIXES (Phones/Tablets)
+   ========================================= */
+@media (max-width: 768px) {
+   header {
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 15px 10px 5px 10px;
+    border-radius: 20px 20px 0 0;
+  }
+
+  .safelysendlogo {
+    transform: scale(1.2);
+    margin: 0 auto 10px auto;
+    display: block;
+  }
+
+  /* 2. Top Navigation Buttons (styled as the bottom half of the green bar) */
+  .introduction,
+  .products,
+  .new,
+  .signin {
+    position: static;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: darkgreen;
+    font-size: 1.3rem;
+    height: auto;
+    padding: 8px 12px;
+    margin: 0;
+    border-radius: 0;
+    text-align: center;
+  }
+  .search {
+    margin: 15px auto;
+    width: 90%;
+  }
+
+  .searchtext {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    height: 45px;
+    padding-right: 50px;
+  }
+
+  .searchclick {
+    height: 41px;
+    width: 40px;
+    margin-left: -45px;
+    margin-top: 2px;
+  }
+  .box1 {
+    width: 100%;
+    height: auto;
+    margin: 15px 0;
+  }
+
+  .homepage {
+    position: static;
+    margin-top: 20px;
+    font-size: 1.3rem;
+    border-radius: 25px;
+    padding: 15px;
+  }
+  .intpagetitle1, .intpagetitle2, .intpagetitle3 {
+    font-size: 1.6rem;
+    padding: 0 10px;
+  }
+
+  .intpagetext1, .intpagetext2, .intpagetext3 {
+    font-size: 1.1rem;
+    padding: 0 10px;
+  }
+
+  .newspaper {
+    width: 90%;
+    box-sizing: border-box;
+    margin: 40px auto;
+    font-size: 1.6rem;
+  }
+
+  .newspapersearch,
+  .newspaperclick {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .imagesproduct {
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    box-sizing: border-box;
+    margin: 40px auto;
+    padding: 25px 15px;
+    gap: 35px;
+  }
+  .smallbox, .mediumbox, .bigbox {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+  }
+  .smallboxpurchase,
+  .mediumboxpurchase,
+  .bigboxpurchase {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+  }
+  .support,
+  .supportsign,
+  .supportint,
+  .supportpro,
+  .supportnew {
+    margin-top: 60px;
+    font-size: 1.1rem;
+  }
+}
