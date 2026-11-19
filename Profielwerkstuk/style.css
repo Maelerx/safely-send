@@ -1,0 +1,306 @@
+header {
+    color: rgb(196, 107, 18);
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: right;
+    background-color: darkgreen;
+    padding: 10px;
+    border-radius: 20px;
+}
+.safelysendlogo{
+    width: 70px;
+    height: 35px;
+    transform: scale(2.2);
+    margin-right: 100px;
+}
+
+
+body {
+    background-color: lightgreen;
+}
+
+.box1 {
+    display: block;
+    margin-top: -750px;
+    margin-left: 10px;
+    height: 750px;
+    width: 1600px;
+}
+.homepage {
+    position: relative;
+    top: 250px;
+    margin-top: 500px;
+    background-color: darkgreen;
+    border-radius: 50px;
+    font-size: 40px;
+}
+.hpagetitle {
+    color: rgb(196, 107, 18);
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.hometext {
+    color: rgb(196, 107, 18);
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin-top: 0px;
+}
+.support {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    margin-top: 350px;
+    margin-left: -8px;   
+    margin-right: -8px;  
+    margin-bottom: -8px; 
+    color: rgb(196, 107, 18);
+    background-color: darkgreen;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.instagram {
+    color: rgb(196, 107, 18);
+    text-decoration: none;
+}
+
+.search {
+    text-align: center;
+    margin-top: -63px;
+    margin-right: 1120px;
+}
+
+.searchtext {
+    background-color: white;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 50px;
+    width: 400px;
+    padding-left: 20px;
+    padding-right: 65px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+}
+
+.searchclick {
+    position: absolute;
+    background-color: white;
+    height: 47px;
+    width: 45px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-left: -58px;     
+}
+
+.searchclick img {
+    height: 100%;
+    width: 100%;
+}
+
+
+.signin {
+    background: none;
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(196, 107, 18);
+    height: 60px;
+    position: absolute;
+    top: 17px;
+    right: 360px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+.supportsign {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    margin-top: 350px;
+    margin-left: -8px;   
+    margin-right: -8px;  
+    margin-bottom: -8px; 
+    color: rgb(196, 107, 18);
+    background-color: darkgreen;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.introduction {
+    background: none;
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(196, 107, 18);
+    height: 60px;
+    position: absolute;
+    top: 17px;
+    right: 900px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+.intpagetexttitle {
+    background-color: darkgreen;
+    border-radius: 15px;
+    padding: 1px;
+    margin-top: 50px;
+}
+.intpagetitle1, .intpagetitle2, .intpagetitle3 {
+    color: rgb(196, 107, 18);
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+}
+.intpagetext1, .intpagetext2, .intpagetext3 {
+    color: lightgoldenrodyellow;
+    font-size: 1.75rem;
+}
+.newspaper {
+    color: rgb(196, 107, 18);
+    background-color: darkgreen;
+    width: fit-content;
+    font-size: 3rem;
+    margin-left: 540px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 15px;
+    padding: 20px;
+}
+.newspapersearch {
+    font-size: 1.25rem;
+    width: 500px;
+    height: 40px;
+}
+.newspaperclick {
+    font-size: 1.25rem;
+    background-color: darkgreen;
+    color: rgb(196, 107, 18);
+    height: auto;
+    width: 500px;
+    height: 30px;
+    cursor: pointer;
+}
+.supportint {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    margin-top: auto;
+    margin-left: -8px;   
+    margin-right: -8px;  
+    margin-bottom: -8px; 
+    color: rgb(196, 107, 18);
+    background-color: darkgreen;
+    padding: 20px;
+    text-align: center;
+}
+
+.products {
+    background: none;
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(196, 107, 18);
+    height: 60px;
+    position: absolute;
+    top: 17px;
+    right: 700px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+.imagesproduct{
+    background-color: darkgreen;
+    background-color: 0000;
+    padding: 100px;
+    display: flex;
+    width: fit-content;
+    margin: 150px auto;
+    margin-right: 200px;
+    margin-top: 150px;
+    border-radius: 15px;
+    gap: 50px;
+}
+.smallbox, .mediumbox, .bigbox {
+    height: 300px;
+    width: 300px;
+}
+.smallboxprice, .mediumboxprice, .bigboxprice {
+    color: rgb(196, 107, 18);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: xx-large;
+}
+.smallboxpurchase {
+    background-color: rgb(80, 143, 73);
+    color: white;
+    height: 50px;
+    width: 200px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.mediumboxpurchase {
+    background-color: rgb(80, 143, 73);
+    color: white;
+    height: 50px;
+    width: 200px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.bigboxpurchase {
+    background-color: rgb(80, 143, 73);
+    color: white;
+    height: 50px;
+    width: 200px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.supportpro {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    margin-top: 350px;
+    margin-left: -8px;   
+    margin-right: -8px;  
+    margin-bottom: -8px; 
+    color: rgb(196, 107, 18);
+    background-color: darkgreen;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.new {
+    background: none;
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(196, 107, 18);
+    height: 60px;
+    position: absolute;
+    top: 17px;
+    right: 550px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+.supportnew {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    margin-top: 350px;
+    margin-left: -8px;   
+    margin-right: -8px;  
+    margin-bottom: -8px; 
+    color: rgb(196, 107, 18);
+    background-color: darkgreen;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
