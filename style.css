@@ -111,7 +111,7 @@ body {
 .signin {
     background: none;
     font-size: 40px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(196, 107, 18);
     height: 60px;
     position: absolute;
@@ -164,7 +164,7 @@ body {
     height: 60px;
     position: absolute;
     top: 10px;
-    right: 890px;
+    right: 920px;
     border-radius: 15px;
     border: none;
     cursor: pointer;
@@ -178,12 +178,28 @@ body {
 .intpagetitle1, .intpagetitle2, .intpagetitle3 {
     color: rgb(196, 107, 18);
     font-style: italic;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 2.5rem;
 }
 .intpagetext1, .intpagetext2, .intpagetext3 {
     color: lightgoldenrodyellow;
     font-size: 1.75rem;
+}
+.Amir {
+    color: rgb(157,7,89);
+}
+.Beau {
+    color: blue;
+}
+.Finn {
+    color: orange;
+}
+.Gerben {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(46,251,255);
+}
+.Vinn {
+    color: rgb(187,30,16);
 }
 .newspaper {
     color: rgb(196, 107, 18);
@@ -232,7 +248,7 @@ body {
     height: 60px;
     position: absolute;
     top: 10px;
-    right: 690px;
+    right: 700px;
     border-radius: 15px;
     border: none;
     cursor: pointer;
@@ -331,6 +347,8 @@ body {
 }
 .newproducttext {
     font-size: 100px;
+    background-color: #032903;
+    border-radius: 15px;
 }
 .newproducttext2 {
     font-size: 50px;
